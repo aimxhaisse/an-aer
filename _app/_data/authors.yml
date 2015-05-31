@@ -7,13 +7,19 @@
 # {{ author.web }}: used in atom feed
 # {{ author.twitter }}: used by Twitter Cards
 default:
-  name:         Tunghsiao Liu
-  email:        t@sparanoid.com
-  web:          http://sparanoid.com/
-  twitter:      tunghsiao
+  name:         Vincent & Sébastien Rannou
+  email:        an-aer@sbrk.org
+  web:          http://an-aer.sbrk.org/
+  twitter:      aimxhaisse
 
-tester:
-  name:         Tester
-  email:        test@test.com
-  web:          http://tester.com/
-  twitter:      tester
+seb:
+  name:         Sébastien Rannou
+  email:        mxs@sbrk.org
+  web:          http://mxs.sbrk.org/
+  twitter:      aimxhaisse
+
+vincent:
+  name:         Vincent Rannou
+  email:        20.100.rannou@gmail.com
+  web:          null
+  twitter:      null
