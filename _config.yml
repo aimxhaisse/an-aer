@@ -106,7 +106,7 @@ subscription:   false
 
 # Show generator credits
 # Default:      true
-credits:        true
+credits:        null
 
 #
 # Custom distribution variables
