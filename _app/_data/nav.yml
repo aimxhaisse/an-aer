@@ -1,14 +1,19 @@
-- title: home
-  url:   /
+- title: Accueil
+  icon: home
+  url: /
 
-- title: people
-  url:   /a-propos/
+- title: À Propos
+  icon: people
+  url: /a-propos/
 
-- title: camera_alt
-  url:   /galleries
+- title: Galleries
+  icon: camera_alt
+  url: /galleries
 
-- title: camera_roll
-  url:   /materiel
+- title: Matériel
+  icon: camera_roll
+  url: /materiel
 
-- title: help
-  url:   /services
+- title: Services
+  icon: help
+  url: /services
