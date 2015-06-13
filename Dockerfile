@@ -6,4 +6,13 @@ RUN curl -sL https://deb.nodesource.com/setup_0.12 | bash -
 RUN apt-get install -q -y \
     nodejs \
     build-essential \
-    npm
+    npm \
+    ruby-dev \
+    rubygems
+RUN gem install bundle
+
+ADD . /usr/src/app
+RUN cd /usr/src/app && \
+    bundle install
+RUN cd /usr/src/app && \
+    npm install -g .
