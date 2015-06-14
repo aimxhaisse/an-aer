@@ -9,10 +9,14 @@ RUN apt-get install -q -y \
     npm \
     ruby-dev \
     rubygems
+
 RUN gem install bundle
 
 ADD . /usr/src/app
-RUN cd /usr/src/app && \
-    bundle install
-RUN cd /usr/src/app && \
-    npm install -g .
+
+RUN ln -sf /usr/bin/nodejs /usr/bin/node
+RUN cd /usr/src/app && bundle install
+RUN cd /usr/src/app && npm install
+RUN npm install -g grunt-cli
+
+CMD /bin/bash
