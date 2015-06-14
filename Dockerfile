@@ -13,10 +13,11 @@ RUN apt-get install -q -y \
 RUN gem install bundle
 
 ADD . /usr/src/app
+WORKDIR /usr/src/app
 
 RUN ln -sf /usr/bin/nodejs /usr/bin/node
-RUN cd /usr/src/app && bundle install
-RUN cd /usr/src/app && npm install
+RUN bundle install
+RUN npm install
 RUN npm install -g grunt-cli
 
 CMD /bin/bash
