@@ -1,31 +1,32 @@
-# Almace Scaffolding
-[![devDependency Status](https://david-dm.org/sparanoid/almace-scaffolding/dev-status.svg)](https://david-dm.org/sparanoid/almace-scaffolding#info=devDependencies)
+# An Aer
 
-`AMSF`, a.k.a. **Almace Scaffolding**, a super-fast Jekyll framework. Supports live reloading (BrowserSync), LESS, HTML minification, inlined stylesheets and more. Available for [Jekyll](http://jekyllrb.com/) right now (will be available for more platforms in the future).
+A photography website based on [Almace Scaffolding](http://sparanoid.com/lab/amsf/) by **Tunghsiao Liu**.
 
------
+## Publication Workflow
 
-## [Getting Started](http://sparanoid.com/lab/amsf/getting-started.html)
+- once or twice a week, we publish an image (twitter, facebook)
+- once in a while, we publish a serie (~12 images or more if specific work) (twitter, facebook, RSS)
 
-## Donate
+### Series
 
-Wanna buy me a cup of coffee? [Great](http://sparanoid.com/donate/).
+A serie is:
 
-## Author
+- a tiny text describing the serie
+- a cover image
+- images
 
-**Tunghsiao Liu**
+On the of the website, there is the list of published series (like
+news, automated by Jekyll). On the index of the serie, there is the
+list of images, also automated by Jekyll.
 
-- Twitter: @[tunghsiao](http://twitter.com/tunghsiao)
-- GitHub: @[sparanoid](http://github.com/sparanoid)
+### Images
 
-## Licenses
+An image is:
 
-Following files, directories and their contents are copyright Tunghsiao Liu and licensed under a [CC BY-NC-ND 3.0](http://creativecommons.org/licenses/by-nc-nd/3.0/). You may not reuse anything therein without permission:
+- a tiny description
+- a license
+- metadata
 
-- `./_app/_posts/`
-- `./_app/apple-touch-icon.png`
-- `./_app/favicon.ico`
-
-All other files and directories are licensed under the [MIT](http://www.opensource.org/licenses/mit-license.php) unless explicitly stated.
-
-© Tunghsiao Liu. Rights reserved as indicated above.
+Images are always published, however, they can only be accessed once
+the serie is published, this allows to publish single images before
+publishing the full serie.
