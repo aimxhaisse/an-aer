@@ -16,7 +16,9 @@ permalink: /
     <small>{{ site.description }}</small>
   </header>
 
-  {% for post in site.categories.note %}
+  <h2>Dernières Séries d'Images</h2>
+  
+  {% for post in site.categories.series %}
     {% include page-item.html %}
   {% endfor %}
 </article>
