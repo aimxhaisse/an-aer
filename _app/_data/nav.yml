@@ -6,9 +6,9 @@
   icon: people
   url: /a-propos/
 
-- title: Galleries
+- title: Séries
   icon: camera_alt
-  url: /galleries
+  url: /series
 
 - title: Matériel
   icon: camera_roll
