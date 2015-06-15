@@ -12,12 +12,17 @@ RUN apt-get install -q -y \
 
 RUN gem install bundle
 
-ADD . /usr/src/app
 WORKDIR /usr/src/app
+
+ADD package.json /usr/src/app/
+ADD Gemfile Gemfile.lock /usr/src/app/
+ADD Gruntfile.coffee /usr/src/app/
 
 RUN ln -sf /usr/bin/nodejs /usr/bin/node
 RUN bundle install
 RUN npm install
 RUN npm install -g grunt-cli
 
-CMD /bin/bash
+ADD . /usr/src/app
+
+CMD grunt serve
