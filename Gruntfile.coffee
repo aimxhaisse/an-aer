@@ -319,6 +319,7 @@ module.exports = (grunt) ->
         watchTask: true
         server:
           baseDir: "<%= config.dist %>"
+        host: "<%= config.cfg.host %>"
         port: "<%= config.cfg.port %>"
         ghostMode:
           clicks: true

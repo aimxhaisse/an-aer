@@ -20,6 +20,7 @@ include:        ["_pages"]
 #
 
 port:           4321
+host:           0.0.0.0
 
 #
 # Jekyll build settings
