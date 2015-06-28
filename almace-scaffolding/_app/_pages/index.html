@@ -2,6 +2,7 @@
 layout: default
 title: An Aer
 permalink: /
+plugins: intense
 ---
 
 <!-- Article wrapper, limit width -->
@@ -16,6 +17,10 @@ permalink: /
     <small>{{ site.description }}</small>
   </header>
 
+  {% for image in site.data.main.images %}
+  <img class="intense-wrap" src="/assets/img/series/{{ image }}" />
+  {% endfor %}
+  
   <h2>Dernières Séries d'Images</h2>
   
   {% for post in site.categories.series %}
