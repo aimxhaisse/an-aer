@@ -19,6 +19,14 @@ On the of the website, there is the list of published series (like
 news, automated by Jekyll). On the index of the serie, there is the
 list of images, also automated by Jekyll.
 
+### Roadmap
+
+- fix grunt issues
+- rework homepage
+- add a dummy serie
+- add a CDN
+- simplify dev workflow
+
 ### Images
 
 An image is:
