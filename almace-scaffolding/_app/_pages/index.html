@@ -17,9 +17,12 @@ plugins: intense
     <small>{{ site.description }}</small>
   </header>
 
-  {% for image in site.data.main.images %}
-  <img class="intense-wrap" src="/assets/img/series/{{ image }}" />
-  {% endfor %}
+  <div class="quick-preview">
+    {% for image in site.data.main.images %}
+    <img class="intense" src="{{ site.file }}{{ image }}" />
+    {% endfor %}
+  </div>
+  <div class="end-quick-preview"></div>
   
   <h2>Dernières Séries d'Images</h2>
   
