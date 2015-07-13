@@ -5,4 +5,6 @@ permalink: /series/
 desc: An Aer・Séries d'Images
 ---
 
-* [Dans les champs](/series/dans-les-champs/) (Bretagne, 2015)
+{% for post in site.categories.series %}
+* [{{ post.title }}]({{ post.permalink }}) ({{ post.what }})
+{% endfor %}
