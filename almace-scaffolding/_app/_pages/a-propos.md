@@ -22,7 +22,7 @@ particulier.
 Derrière An Aer se cachent deux frères qui passent une bonne partie de
 leur temps libre avec un appareil photo dans le sac à dos.
 
-L'ainé des deux, Sébastien, a eu l'occasion de se fammiliariser au
+L'ainé des deux, Sébastien, a eu l'occasion de se familiariser au
 grand angle à travers plusieurs treks et voyages, avant de
 s'intéresser à l'argentique en noir et blanc et aux procédés
 associés. Depuis quelques temps, il développe et effectue lui-même ses
