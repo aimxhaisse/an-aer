@@ -1,6 +1,11 @@
 images:
-  - /series/au-fil-de-l-eau/7-small.jpg
-  - /series/au-fil-de-l-eau/2-small.jpg
-  - /series/au-fil-de-l-eau/3-small.jpg
-  - /series/au-fil-de-l-eau/4-small.jpg
-  - /series/au-fil-de-l-eau/5-small.jpg
+  - image: /series/au-fil-de-l-eau/7-small.jpg
+    link: /series/au-fil-de-l-eau/cascade-d-ilheou/
+  - image: /series/au-fil-de-l-eau/7-small.jpg
+    link: /series/au-fil-de-l-eau/cascade-d-ilheou/
+  - image: /series/au-fil-de-l-eau/7-small.jpg
+    link: /series/au-fil-de-l-eau/cascade-d-ilheou/
+  - image: /series/au-fil-de-l-eau/7-small.jpg
+    link: /series/au-fil-de-l-eau/cascade-d-ilheou/
+  - image: /series/au-fil-de-l-eau/7-small.jpg
+    link: /series/au-fil-de-l-eau/cascade-d-ilheou/

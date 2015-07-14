@@ -10,7 +10,7 @@
 source:         _app
 destination:    _site
 timezone:       Europe/Paris
-permalink:      /:title.html
+permalink:      /:categories/:title.html
 markdown:       redcarpet
 highlighter:    pygments
 include:        ["_pages"]

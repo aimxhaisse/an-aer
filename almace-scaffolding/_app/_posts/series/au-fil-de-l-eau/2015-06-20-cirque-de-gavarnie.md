@@ -1,22 +1,15 @@
 ---
-layout: page
+layout: photo
 title: Cirque de Gavarnie
-permalink: /series/au-fil-de-l-eau/cirque-de-gavarnie/
 desc: An Aer・Au fil de l'eau
-category: au_fil_de_l_eau
-what: Pyrénées, 2015
-plugin: intense
+category: au-fil-de-l-eau
+image: 2
+tags:
+- front
+metadata:
+- boitier: Canon AL-1
+- pellicule: Kodak Tri-X 400
+- révélateur: Ilford Ilfosol 3
+- objectif: 28mm
+- lieu: Cauterets, Pyrénées
 ---
-
-<p>
-  <img src="{{ site.file }}/series/au-fil-de-l-eau/2-large.jpg" alt="Cirque de Gavarnie" />
-</p>
-
-|             |                                                                      |
-|-------------|----------------------------------------------------------------------|
-| Boitier     | Canon AL-1                                                           |
-| Objectif    | 28mm                                                                 |
-| Pellicule   | Kodak TriX 400                                                       |
-| Révélateur  | Ilford Ilfosol 3                                                     |
-| Lieu 	      |	Gavarnie, Pyrénées                                                   |
-| Licence     | [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/) |

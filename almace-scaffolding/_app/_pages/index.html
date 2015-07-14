@@ -18,11 +18,20 @@ plugins: intense
   </header>
 
   <div class="quick-preview cf">
-    {% for image in site.data.main.images %}
-    <img class="intense" src="{{ site.file }}{{ image }}" />
+    {% assign i = 0 %}
+    {% for post in site.posts %}
+       {% if post.tags contains "front" %}
+       <a href="{{ post.url }}">
+          <img class="intense" src="{{ site.file }}/series/{{ post.category }}/{{ post.image }}-small.jpg" />
+       </a>
+       {% assign i = i | plus: 1 %}
+       {% if i == 5 %}
+          {% break %}
+       {% endif %}
+       {% endif %}
     {% endfor %}
   </div>
-  
+
   <h2>Dernières Séries d'Images</h2>
   
   {% for post in site.categories.series %}

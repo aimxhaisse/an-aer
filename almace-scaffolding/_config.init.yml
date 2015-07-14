@@ -9,8 +9,7 @@
 
 source:         _app
 destination:    _site
-timezone:       Asia/Hong_Kong
-permalink:      /:title.html
+timezone:       Europe/Paris
 markdown:       redcarpet
 highlighter:    pygments
 include:        ["_pages"]

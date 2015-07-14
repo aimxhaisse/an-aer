@@ -1,0 +1,73 @@
+---
+layout: default
+plugin: intense
+---
+
+{% include _amsf.html %}
+
+<!-- Post-wide custom CSS -->
+{{ amsf_page_css }}
+
+{% capture amsf_page_heading_text %}
+  {% if page.img-headline %}
+    {{ amsf_page_heading_type_img }}
+  {% elsif page.svg-headline %}
+    {{ amsf_page_heading_type_svg }}
+  {% else %}
+    {{ page.title }} <span></span>
+  {% endif %}
+{% endcapture %}
+
+{% capture amsf_page_heading_external %}
+  {% if page.link %}
+    class=external
+  {% endif %}
+{% endcapture %}
+
+{% capture amsf_page_heading %}
+  {% if page.link %}
+    <a href="{{ page.link }}" class=external>
+      {{ amsf_page_heading_text }}
+    </a>
+  {% else %}
+    {{ amsf_page_heading_text }}
+  {% endif %}
+{% endcapture %}
+
+<!-- Article wrapper, limit width -->
+<article {{ amsf_page_lang }}>
+
+  <!-- Post title -->
+  <header>
+    {{ amsf_page_heading_svg_style }}
+
+    <h1>{{ amsf_page_heading }}</h1>
+
+    {% if page.date %}
+      <small>
+        Par <span rel=author>{{ author.name }}</span>
+        le <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+      </small>
+    {% endif %}
+
+    {% if page.desc %}
+      <small>{{ page.desc }}</small>
+    {% endif %}
+
+  </header>
+
+  <!-- Post content -->
+  <div class=post-content>
+
+    <p>
+      <img src="{{ site.file }}/series/{{ page.category }}/{{ page.image }}-large.jpg" alt="{{ page.title }}" />
+    </p>
+
+    <h2>Informations</h2>
+
+    {{ page.metadata | aer_metadata }}
+        
+  </div>
+
+</article>
+
