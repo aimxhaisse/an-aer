@@ -19,6 +19,9 @@
   </script>
 {% endif %}
 
+  <script src="{{ '/js/jquery.js' | prepend: site.assets | prepend: site.base }}"></script>
+  <script src="{{ '/js/app.js' | prepend: site.assets | prepend: site.base }}"></script>
+  
 <!-- Foot hooks -->
 {% if page.foot %}
   {{ page.foot }}
