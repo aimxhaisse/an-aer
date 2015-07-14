@@ -17,12 +17,11 @@ plugins: intense
     <small>{{ site.description }}</small>
   </header>
 
-  <div class="quick-preview">
+  <div class="quick-preview cf">
     {% for image in site.data.main.images %}
     <img class="intense" src="{{ site.file }}{{ image }}" />
     {% endfor %}
   </div>
-  <div class="end-quick-preview"></div>
   
   <h2>Dernières Séries d'Images</h2>
   
