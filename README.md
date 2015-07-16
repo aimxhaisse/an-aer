@@ -21,10 +21,7 @@ list of images, also automated by Jekyll.
 
 ### Roadmap
 
-- fix grunt issues
 - rework homepage
-- add a dummy serie
-- add a CDN
 - simplify dev workflow
 
 ### Images
