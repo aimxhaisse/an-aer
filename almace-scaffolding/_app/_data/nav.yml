@@ -9,11 +9,3 @@
 - title: Séries
   icon: camera_alt
   url: /series
-
-- title: Matériel
-  icon: camera_roll
-  url: /materiel
-
-- title: Services
-  icon: help
-  url: /services
