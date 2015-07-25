@@ -4,6 +4,7 @@ title: Au fil de l'eau
 desc: An Aer・Au fil de l'eau
 category: series
 what: Pyrénées, 2015
+plugin: intense
 ---
 
 <p>
@@ -15,7 +16,9 @@ what: Pyrénées, 2015
 <div class="square-box">
   <div class="square-dummy"></div>
   <div class="square-thumb">
-    <img src="{{ site.file }}/series/{{ post.category }}/{{ post.image }}-medium.jpg" />
+    <p>
+      <img alt="{{ post.title }}" src="{{ site.file }}/series/{{ post.category }}/{{ post.image }}-medium.jpg" data-caption="{{ post.title }}" />
+    </p>
   </div>
 </div>
 {% endfor %}
