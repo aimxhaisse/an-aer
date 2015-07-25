@@ -6,9 +6,6 @@
        <li {% if page.permalink == item.url or page.category == lowercased_title %}class=current{% endif %}>
         <a href="{{ item.url | prepend: site.base }}">
           <i class="material-icons">{{ item.icon }}</i>
-	  <center>
-	    <h3 id="tip-{{ item.icon }}"><small>{{ item.title }}</small></h3>
-	  </center>
         </a>
       </li>
     {% endfor %}

@@ -23,10 +23,9 @@
     font-family: 'Material Icons';
     font-weight: normal;
     font-style: normal;
-    font-size: 100px;  /* Preferred icon size */
     display: inline-block;
     text-transform: none;
-    letter-spacing: normal;
+    letter-spacing: 0;
     word-wrap: normal;
     /* Support for all WebKit browsers. */
     -webkit-font-smoothing: antialiased;
@@ -47,9 +46,9 @@
 // @text-color: darken(@background-color, 30%);
 
 // mediumvioletred #C71585 rgb(199,21,133)
-// @link-color: mediumvioletred;
-// @background-color: #fff;
-// @text-color: #000;
+@link-color: mediumvioletred;
+@background-color: #fff;
+@text-color: #000;
 
 // orangered #FF4500 rgb(255,69,0)
 // @link-color: orangered;
@@ -102,17 +101,16 @@
 }
 
 .material-icons {
-    font-size: 500%;
+    font-size: 400%;
 }
 
 // amsf.github.io color scheme
-@link-color: #FFCC33;
-@background-color: #FFFFFF;
-@text-color: #303030;
-@code-color: darken(spin(@link-color, 180), 10%);
-.content {
-  h1 { color: #FFCC33; }
-}
+// @link-color: #FFCC33;
+// @background-color: #FFFFFF;
+// @text-color: #303030;
+// @code-color: darken(spin(@link-color, 180), 10%);
+
+h1 { color: @link-color; }
 
 // amsf.github.io homepage logo
 .amsf-logo {
