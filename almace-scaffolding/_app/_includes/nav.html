@@ -1,0 +1,27 @@
+{% if page.permalink == '/' %}
+   {% assign on_home='yes' %}
+{% elsif page.permalink == '/a-propos/' %}
+   {% assign on_apropos='yes' %}
+{% else %}
+   {% assign on_series='yes' %}
+{% endif %}
+
+<nav class=navigation>
+  <ul>
+    <li {% if on_home %}class=current{% endif %}>
+      <a href="/">
+	<i class="material-icons">home</i>
+      </a>
+    </li>
+    <li {% if on_series %}class=current{% endif %}>
+      <a href="/series/">
+	<i class="material-icons">camera_alt</i>
+      </a>
+    </li>
+    <li {% if on_apropos %}class=current{% endif %}>
+      <a href="/a-propos/">
+	<i class="material-icons">people</i>
+      </a>
+    </li>
+  </ul>
+  </nav>
