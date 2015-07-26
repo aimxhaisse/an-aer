@@ -41,7 +41,9 @@ plugin: intense
   <header>
     {{ amsf_page_heading_svg_style }}
 
-    <h1>{{ amsf_page_heading }}</h1>
+    <h1 class=amsf-title>
+      <a href="{{ page.permalink }}">{{ page.desc }}</a>
+    </h1>
 
     {% if page.date %}
       <small>
@@ -53,7 +55,7 @@ plugin: intense
     {% if page.desc %}
       <small>{{ page.desc }}</small>
     {% endif %}
-
+     
   </header>
 
   <!-- Post content -->
@@ -62,6 +64,8 @@ plugin: intense
     <p>
       <img src="{{ site.file }}/series/{{ page.category }}/{{ page.image }}/large.jpg" alt="{{ page.title }}" data-title="{{ page.title }}" />
     </p>
+
+    <h2>{{ page.title }}</h2>
 
     <h2>Informations</h2>
 
