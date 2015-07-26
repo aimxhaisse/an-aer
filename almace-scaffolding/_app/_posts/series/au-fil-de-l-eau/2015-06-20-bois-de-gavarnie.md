@@ -3,7 +3,7 @@ layout: photo
 title: Bois de Gavarnie
 desc: An Aer・Au fil de l'eau
 category: au-fil-de-l-eau
-image: 3
+image: 2
 tags:
 - front
 metadata:

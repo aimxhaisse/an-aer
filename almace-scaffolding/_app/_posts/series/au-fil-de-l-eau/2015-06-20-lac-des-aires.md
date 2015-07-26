@@ -1,9 +1,11 @@
 ---
 layout: photo
-title: Aux alentours d'Ihléou
+title: À proximité du lac des aires
 desc: An Aer・Au fil de l'eau
 category: au-fil-de-l-eau
-image: 6
+image: 3
+tags:
+- front
 metadata:
 - boitier: Canon AL-1
 - pellicule: Kodak Tri-X 400

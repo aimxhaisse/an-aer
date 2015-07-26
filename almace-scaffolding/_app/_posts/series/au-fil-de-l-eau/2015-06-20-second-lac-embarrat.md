@@ -1,9 +1,11 @@
 ---
 layout: photo
-title: Gave de Gaube
+title: Second lac d'Embarrat
 desc: An Aer・Au fil de l'eau
 category: au-fil-de-l-eau
-image: 1
+image: 9
+tags:
+- front
 metadata:
 - boitier: Canon AL-1
 - pellicule: Kodak Tri-X 400
