@@ -6,6 +6,10 @@ desc: An Aer・Séries d'Images
 category: image
 ---
 
-{% for post in site.categories.series %}
-* [{{ post.title }}]({{ post.url }}) ({{ post.what }})
-{% endfor %}
+<ul>
+  {% for post in site.categories.series %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.what }})
+  </li>
+  {% endfor %}
+</ul>
