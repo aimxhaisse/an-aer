@@ -51,11 +51,6 @@ plugin: intense
         le <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
       </small>
     {% endif %}
-
-    {% if page.desc %}
-      <small>{{ page.desc }}</small>
-    {% endif %}
-     
   </header>
 
   <!-- Post content -->
@@ -66,8 +61,6 @@ plugin: intense
     </p>
 
     <h2>{{ page.title }}</h2>
-
-    <h2>Informations</h2>
 
     <div class="photo-metadata">
       {{ page.metadata | aer_metadata }}
