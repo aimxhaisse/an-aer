@@ -17,7 +17,9 @@ plugin: intense
   <div class="square-dummy"></div>
   <div class="square-thumb">
     <p>
-      <img alt="{{ post.title }}" src="{{ site.file }}/series/{{ post.category }}/{{ post.image }}-medium.jpg" data-caption="{{ post.title }}" />
+      <a href="{{ post.url }}">
+	<img alt="{{ post.title }}" src="{{ site.file }}/series/{{ post.category }}/{{ post.image }}-medium.jpg" class="nointense" />
+      </a>
     </p>
   </div>
 </div>

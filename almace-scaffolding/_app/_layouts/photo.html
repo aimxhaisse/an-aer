@@ -60,12 +60,14 @@ plugin: intense
   <div class=post-content>
 
     <p>
-      <img src="{{ site.file }}/series/{{ page.category }}/{{ page.image }}-large.jpg" alt="{{ page.title }}" />
+      <img src="{{ site.file }}/series/{{ page.category }}/{{ page.image }}-large.jpg" alt="{{ page.title }}" data-title="{{ page.title }}" />
     </p>
 
     <h2>Informations</h2>
 
-    {{ page.metadata | aer_metadata }}
+    <div class="photo-metadata">
+      {{ page.metadata | aer_metadata }}
+    </div>
         
   </div>
 
