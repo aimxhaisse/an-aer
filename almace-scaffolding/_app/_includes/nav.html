@@ -2,6 +2,8 @@
    {% assign on_home='yes' %}
 {% elsif page.permalink == '/a-propos/' %}
    {% assign on_apropos='yes' %}
+{% elsif page.permalink == '/contact/' %}
+   {% assign on_contact='yes' %}
 {% else %}
    {% assign on_series='yes' %}
 {% endif %}
@@ -20,7 +22,12 @@
     </li>
     <li {% if on_apropos %}class=current{% endif %}>
       <a href="/a-propos/">
-	<i class="material-icons">people</i>
+	<i class="material-icons">info</i>
+      </a>
+    </li>
+    <li {% if on_contact %}class=current{% endif %}>
+      <a href="/contact/">
+	<i class="material-icons">warning</i>
       </a>
     </li>
   </ul>
