@@ -1,6 +1,7 @@
 ---
 layout: photo
-title: Torrent dans la vallée d'Embarrat
+title: |
+  Un peu plus bas dans la vallée, le petit ruisseau issu du lac d'Embarrat grandit
 desc: An Aer・Au fil de l'eau
 category: au-fil-de-l-eau
 image: 8

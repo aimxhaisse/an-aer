@@ -1,6 +1,7 @@
 ---
 layout: photo
-title: Bois de Gavarnie
+title: |
+  Un petit ruisseau dans les bois à proximité du cirque de Gavarnie
 desc: An Aer・Au fil de l'eau
 category: au-fil-de-l-eau
 image: 2

@@ -1,6 +1,7 @@
 ---
 layout: photo
-title: Col d'Ilheou
+title: |
+  Un squelette de mouton à proximité du col d'Ilhéou
 desc: An Aer・Au fil de l'eau
 category: au-fil-de-l-eau
 image: 4
