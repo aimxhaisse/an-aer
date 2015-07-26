@@ -31,13 +31,3 @@ coin de son appartement.
 
 Vincent quant à lui est resté aux sources, mais comme il a la flemme
 de remplir sa description, et bien vous n'en saurez pas plus sur lui.
-
-## Le Site
-
-Le site est développé à partir de solutions libres de droit, en se
-basant sur Almace Scaffolding ; le code est accessible librement.
-
-La totalité des photographies est licensiée en Creative Commons, qui
-autorise toute réutilisation non-commerciale à condition de laisser
-une mention sur les auteurs. Pour toute utilisation sortant de ce
-cadre, vous pouvez nous contacter directement.
