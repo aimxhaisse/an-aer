@@ -1,15 +1,17 @@
 ---
 layout: photo
-title: Un renardeau ayant repéré un bruit étrange à proximité de son terrier
+title: Un renardeau ayant repéré un bruit étrange à proximité de son térrié.
 desc: An Aer・Pris sur le vif
 category: pris-sur-le-vif
 image: 6
 tags:
 - front
 metadata:
-- boitier: Canon 650D
-- focale: F/6.3
-- temps d'exposition: 1/640
-- objectif: 150-500mm
-- lieu: Ploërdut, Morbihan
+- Boitier: Canon 650D
+- Focale: F/6.3
+- Temps d'exposition: 1/640
+- Iso: 800
+- Objectif: 150-500mm
+- Heure: 14:36
+- Lieu: Ploërdut, Morbihan
 ---
