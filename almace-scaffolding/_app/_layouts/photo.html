@@ -57,10 +57,33 @@ plugin: intense
   <div class=post-content>
 
     <p>
-      <img src="{{ site.file }}/series/{{ page.category }}/{{ page.image }}/large.jpg" alt="{{ page.title }}" data-caption="{{ page.title }}" data-title="{{ page.desc }}" />
-    </p>
 
-    <h2>{{ page.title }}</h2>
+      <img src="{{ site.file }}/series/{{ page.category }}/{{ page.image }}/large.jpg" alt="{{ page.title }}" data-caption="{{ page.title }}" data-title="{{ page.desc }}" />
+
+      {% assign num = page.image | int %}
+      {% assign next = num | plus:1 %}
+      {% assign prev = num | plus:-1 %}
+
+      <div class="nav cf">
+        {% for photo in site.categories[page.category] %}
+        {% if photo.image == prev %}
+        <div class="nav-left">
+          <a href="{{ photo.url }}">
+            <i class="material-icons">fast_rewind</i>
+          </a>
+        </div>
+        {% endif %}
+        {% if photo.image == next %}
+        <div class="nav-right">
+          <a href="{{ photo.url }}">
+            <i class="material-icons">fast_forward</i>
+          </a>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+
+    </p>
 
     <div class="photo-metadata">
       {{ page.metadata | aer_metadata }}

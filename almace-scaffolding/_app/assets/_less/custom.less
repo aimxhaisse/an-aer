@@ -202,3 +202,26 @@ figcaption {
         }
     }
 }
+
+.nav {
+    font-size: 80%;
+    color: #606060;
+    .nav-left {
+        float: left;
+    }
+    .nav-right {
+        float: right;
+    }
+    .nav-left, .nav-right {
+        margin-top: -3vmin;
+        margin-bottom: 1vmin;
+        a {
+            padding: 0;
+            &:hover,
+            &:focus {
+                color: @link-color;
+                border: none;
+            }
+        }
+    }
+}
