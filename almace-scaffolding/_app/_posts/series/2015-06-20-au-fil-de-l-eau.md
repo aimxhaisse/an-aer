@@ -9,5 +9,5 @@ category: series
 what: Pyrénées, 2015
 plugin: intense
 target: au-fil-de-l-eau
-star: 5
+star: 9
 ---

@@ -1,6 +1,6 @@
 ---
 layout: photo
-title: Une martre des pins chassant de petits oiseaux dans des branchages.
+title: Martre des pins
 desc: An Aer・Pris sur le vif
 category: pris-sur-le-vif
 image: 1
@@ -12,6 +12,5 @@ metadata:
 - Temps d'exposition: 1/20
 - Iso: 1600
 - objectif: 55-250mm
-
 - Lieu: Ploërdut, Morbihan
 ---

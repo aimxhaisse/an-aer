@@ -12,5 +12,5 @@ metadata:
 - Temps d'exposition: 1/250
 - Iso: 1600
 - Objectif: 55-250
-- Lieu: Ploerdut, Morbihan
+- Lieu: Ploërdut, Morbihan
 ---

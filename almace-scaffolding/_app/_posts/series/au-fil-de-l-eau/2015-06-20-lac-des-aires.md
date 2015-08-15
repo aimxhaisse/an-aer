@@ -1,7 +1,6 @@
 ---
 layout: photo
-title: |
-  Un petit ruisseau à proximité du lac des aires
+title: Lac des aires
 desc: An Aer・Au fil de l'eau
 category: au-fil-de-l-eau
 image: 3

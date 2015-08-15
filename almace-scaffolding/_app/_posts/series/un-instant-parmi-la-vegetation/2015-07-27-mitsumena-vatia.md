@@ -1,6 +1,6 @@
 ---
 layout: photo
-title: Une araignée capable de changer de couleur en fonction de son habitat
+title: Petite araignée
 desc: An Aer・Un instant parmi la végétation
 category: un-instant-parmi-la-vegetation
 image: 3

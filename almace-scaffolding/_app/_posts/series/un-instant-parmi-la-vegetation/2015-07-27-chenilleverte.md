@@ -1,6 +1,6 @@
 ---
 layout: photo
-title: Chenille phalène brumeuse se balançant d'herbe en herbe
+title: Chenille se balançant d'herbe en herbe
 desc: An Aer・Un instant parmi la végétation
 category: un-instant-parmi-la-vegetation
 image: 2
@@ -12,5 +12,5 @@ metadata:
 - Temps d'exposition: 1/800
 - Iso: 400
 - Objectif: 90mm
-- Lieu: Ploerdut, Morbihan
+- Lieu: Ploërdut, Morbihan
 ---

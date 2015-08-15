@@ -1,7 +1,6 @@
 ---
 layout: photo
-title: |
-  La cascade d'Ilhéou, un peu avant d'arriver au lac d'Ilhéou
+title: Cascade d'Ilhéou
 desc: An Aer・Au fil de l'eau
 category: au-fil-de-l-eau
 image: 5

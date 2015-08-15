@@ -1,6 +1,6 @@
 ---
 layout: photo
-title: Un jeune renardeau à l'affut sur un talus.
+title: Jeune renardeau
 desc: An Aer・Pris sur le vif
 category: pris-sur-le-vif
 image: 3
@@ -12,6 +12,5 @@ metadata:
 - Temps d'exposition: 1/320
 - Iso: 320
 - Objectif: 55-250mm
-
 - Lieu: Ploërdut, Morbihan
 ---

@@ -1,7 +1,6 @@
 ---
 layout: photo
-title: |
-  Après quelques heures d'ascension, le premier lac d'Embarrat se découvre
+title: Lac d'Embarrat
 desc: An Aer・Au fil de l'eau
 category: au-fil-de-l-eau
 image: 6

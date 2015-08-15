@@ -1,6 +1,6 @@
 ---
 layout: photo
-title: Le charançon se sert de sa trompe pour percer les glands.
+title: Charançon
 desc: An Aer・Un instant parmi la végétation
 category: un-instant-parmi-la-vegetation
 image: 6
@@ -12,5 +12,5 @@ metadata:
 - Temps d'exposition: 1/8
 - Iso: 800
 - Objectif: 18-55mm
-- Lieu: Ploerdut, Morbihan
+- Lieu: Ploërdut, Morbihan
 ---

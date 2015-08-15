@@ -1,7 +1,6 @@
 ---
 layout: photo
-title: |
-  Un peu plus bas dans la vallée, le petit ruisseau issu du lac d'Embarrat grandit
+title: Vallée d'Embarrat
 desc: An Aer・Au fil de l'eau
 category: au-fil-de-l-eau
 image: 8
