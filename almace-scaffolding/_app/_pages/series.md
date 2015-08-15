@@ -6,10 +6,20 @@ desc: An Aer・Séries d'Images
 category: image
 ---
 
-<ul>
+<div id="series">
   {% for post in site.categories.series %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.what }})
-  </li>
+  <div class="serie-box cf">
+    <div class="serie-image">
+      <a href="{{ post.url }}">
+	      <img alt="{{ post.title }}" src="{{ site.file }}/series/{{ post.target }}/{{ post.star }}/300x225.jpg" class="nointense" />
+      </a>
+    </div>
+    <div class="serie-meta">
+      <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.what }})
+      <p>
+        {{ post.long }}
+      </p>
+    </div>
+  </div>
   {% endfor %}
-</ul>
+</div>

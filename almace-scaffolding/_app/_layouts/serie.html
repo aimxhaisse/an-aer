@@ -33,7 +33,7 @@ plugin: intense
     <div class="serie-gallery">
       {% for post in site.categories[page.target] %}
       <a href="{{ post.url }}">
-	<img alt="{{ post.title }}" src="{{ site.file }}/series/{{ post.category }}/{{ post.image }}/300x225.jpg" class="nointense" />
+	      <img alt="{{ post.title }}" src="{{ site.file }}/series/{{ post.category }}/{{ post.image }}/300x225.jpg" class="nointense" />
       </a>
       {% endfor %}
     </div>
