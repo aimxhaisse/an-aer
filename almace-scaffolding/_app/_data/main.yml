@@ -1,11 +1,6 @@
 images:
-  - image: /series/au-fil-de-l-eau/7-small.jpg
-    link: /series/au-fil-de-l-eau/cascade-d-ilheou/
-  - image: /series/au-fil-de-l-eau/7-small.jpg
-    link: /series/au-fil-de-l-eau/cascade-d-ilheou/
-  - image: /series/au-fil-de-l-eau/7-small.jpg
-    link: /series/au-fil-de-l-eau/cascade-d-ilheou/
-  - image: /series/au-fil-de-l-eau/7-small.jpg
-    link: /series/au-fil-de-l-eau/cascade-d-ilheou/
-  - image: /series/au-fil-de-l-eau/7-small.jpg
-    link: /series/au-fil-de-l-eau/cascade-d-ilheou/
+  - /un-instant-parmi-la-vegetation/papillon.html
+  - /pris-sur-le-vif/martre-des-pins.html
+  - /pris-sur-le-vif/renardeau.html
+  - /au-fil-de-l-eau/second-lac-embarrat.html
+  - /un-instant-parmi-la-vegetation/ephemere.html
