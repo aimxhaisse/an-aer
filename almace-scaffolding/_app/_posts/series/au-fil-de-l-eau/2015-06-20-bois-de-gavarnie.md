@@ -1,4 +1,5 @@
 ---
+flickr: sync
 layout: photo
 title: Bois de Gavarnie
 desc: An Aer・Au fil de l'eau

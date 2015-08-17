@@ -1,4 +1,5 @@
 ---
+flickr: sync
 layout: photo
 title: Martre des pins
 desc: An Aer・Pris sur le vif

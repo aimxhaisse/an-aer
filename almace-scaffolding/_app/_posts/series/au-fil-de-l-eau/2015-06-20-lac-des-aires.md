@@ -1,4 +1,5 @@
 ---
+flickr: sync
 layout: photo
 title: Lac des aires
 desc: An Aer・Au fil de l'eau

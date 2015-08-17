@@ -1,4 +1,5 @@
 ---
+flickr: sync
 layout: photo
 title: Cascade d'Ilhéou
 desc: An Aer・Au fil de l'eau

@@ -1,4 +1,5 @@
 ---
+flickr: sync
 layout: photo
 title: Mouche faisant le guet
 desc: An Aer・Un instant parmi la végétation

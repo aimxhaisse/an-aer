@@ -1,4 +1,5 @@
 ---
+flickr: sync
 layout: photo
 title: Col d'Ilhéou
 desc: An Aer・Au fil de l'eau

@@ -1,4 +1,5 @@
 ---
+flickr: sync
 layout: photo
 title: Lac d'Embarrat
 desc: An Aer・Au fil de l'eau

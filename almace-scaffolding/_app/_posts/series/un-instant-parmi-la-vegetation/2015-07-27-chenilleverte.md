@@ -1,4 +1,5 @@
 ---
+flickr: sync
 layout: photo
 title: Chenille se balançant d'herbe en herbe
 desc: An Aer・Un instant parmi la végétation

@@ -1,4 +1,5 @@
 ---
+flickr: sync
 layout: photo
 title: Le petit lac d'Embarrat
 desc: An Aer・Au fil de l'eau

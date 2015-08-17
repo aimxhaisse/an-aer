@@ -1,4 +1,5 @@
 ---
+flickr: sync
 layout: photo
 title: Jeune renardeau
 desc: An Aer・Pris sur le vif

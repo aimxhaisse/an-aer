@@ -1,4 +1,5 @@
 ---
+flickr: sync
 layout: photo
 title: Renardeau à proximité de son térrier
 desc: An Aer・Pris sur le vif
