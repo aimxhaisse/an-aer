@@ -22,6 +22,15 @@ particulier.
 Derrière An Aer se cachent deux frères qui passent une bonne partie de
 leur temps libre avec un appareil photo dans le sac à dos.
 
+<div class="profil cf">
+  <div class="left">
+    <img src="/assets/img/profil-mxs.png" alt="Sébastien" />
+  </div>
+  <div class="right">
+    <img src="/assets/img/profil-mxs.png" alt="Sébastien" />
+  </div>
+</div>
+
 L'ainé des deux, Sébastien, a eu l'occasion de se familiariser au
 grand angle à travers plusieurs treks et voyages, avant de
 s'intéresser à l'argentique en noir et blanc et aux procédés
