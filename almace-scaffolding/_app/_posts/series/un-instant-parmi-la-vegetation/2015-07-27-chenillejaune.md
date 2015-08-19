@@ -1,7 +1,7 @@
 ---
 flickr: sync
 layout: photo
-title: Orage ou pas, il faut manger
+title: Orage
 desc: An Aer・Un instant parmi la végétation
 category: un-instant-parmi-la-vegetation
 image: 8

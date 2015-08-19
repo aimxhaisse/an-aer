@@ -1,7 +1,7 @@
 ---
 flickr: sync
 layout: photo
-title: Petite araignée
+title: Araignée
 desc: An Aer・Un instant parmi la végétation
 category: un-instant-parmi-la-vegetation
 image: 3
