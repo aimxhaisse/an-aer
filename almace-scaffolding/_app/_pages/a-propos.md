@@ -27,7 +27,7 @@ leur temps libre avec un appareil photo dans le sac à dos.
     <img src="/assets/img/profil-mxs.png" alt="Sébastien" />
   </div>
   <div class="right">
-    <img src="/assets/img/profil-mxs.png" alt="Sébastien" />
+    <img src="/assets/img/profil-vincent.png" alt="Vincent" />
   </div>
 </div>
 
